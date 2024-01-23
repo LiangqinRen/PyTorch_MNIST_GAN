@@ -1,0 +1,12 @@
+/data/*
+!/data/.gitkeep
+
+**/__pycache__/**
+
+/log/*
+!/log/.gitkeep
+
+/output/*
+!/output/.gitkeep
+
+/.vscode/
