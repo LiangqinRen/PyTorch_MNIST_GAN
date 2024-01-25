@@ -17,8 +17,8 @@ Generate hand-written numbers with GAN.
 ##### Quick Start
 
 It's better to use a clean conda environment.
->conda create --name gan_mnist --file requirements.txt  
-conda activate gan_mnist
+>conda create --name gan_mnist && conda activate gan_mnist  
+pip install -r requirements.txt
 
 Run the project (trained models are uploaded, so it's OK to test the trained model first; if you train the model, the uploaded models will be covered).
 >bash run.sh train  
